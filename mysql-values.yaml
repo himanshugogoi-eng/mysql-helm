@@ -1,0 +1,9 @@
+auth:
+  rootPassword: my-secret-password
+
+primary:
+  service:
+    type: NodePort
+    nodePort: 32000
+  persistence:
+    enabled: false
